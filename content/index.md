@@ -348,5 +348,6 @@ draft: false
 
     document.addEventListener("DOMContentLoaded", initTagFilter);
     document.addEventListener("nav", initTagFilter);
+    initTagFilter();
   })();
 </script>
