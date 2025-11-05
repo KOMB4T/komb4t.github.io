@@ -21,6 +21,7 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import TagFilter from "./TagFilter"
+import TagSidebar from "./TagSidebar"
 
 export {
   ArticleTitle,
@@ -46,4 +47,5 @@ export {
   Breadcrumbs,
   Comments,
   TagFilter,
+  TagSidebar,
 }
