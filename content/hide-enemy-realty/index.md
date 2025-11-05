@@ -5,7 +5,7 @@ aliases:
   - scripts/hide-enemy-realty
   - scripts/hide-enemy-realty/index
 draft: false
-description: "Сортировка объектов на странице рынке ресурсов GWars."
+description: "Сортировка объектов на странице рынка ресурсов GWars."
 tags:
   - Ресурсы
   - Сортировка
@@ -285,7 +285,7 @@ tags:
 <div class="script-layout">
   <section class="script-card script-header">
     <div class="script-intro">
-      <p>Сортировка объектов на странице рынке ресурсов GWars.</p>
+      <p>Сортировка объектов на странице рынка ресурсов GWars.</p>
       <span class="info-chip"><strong>Версия:</strong> 0.3.0</span>
     </div>
 
