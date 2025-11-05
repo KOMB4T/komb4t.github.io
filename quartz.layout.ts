@@ -8,7 +8,7 @@ const EmptyFooter: QuartzComponent = () => null
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.TagFilter()],
   footer: EmptyFooter,
 }
 
