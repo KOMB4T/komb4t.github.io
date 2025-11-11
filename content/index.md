@@ -253,11 +253,10 @@ draft: false
           <li># Сортировка</li>
         </ul>
         <div class="actions">
-          <a class="install-link" href="scripts/%5BGWars%5DHideEnemyRealtyOnMarket.user.js">Установить</a>
+          <a class="install-link" href="scripts/GWars-HideEnemyRealtyOnMarket.user.js">Установить</a>
           <a class="more-link" href="/hide-enemy-realty">Подробнее →</a>
         </div>
       </article>
     </div>
   </section>
-
 </div>
