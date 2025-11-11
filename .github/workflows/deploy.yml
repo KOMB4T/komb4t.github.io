@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0 # Fetch all history for git info
       - uses: actions/setup-node@v4
         with:
-          node-version: 20.19.0
+          node-version: 22
       - name: Ensure npm version
         run: corepack enable && corepack prepare npm@10.9.2 --activate
       - name: Install Dependencies
@@ -33,6 +33,8 @@ jobs:
           npm_config_arch: x64
       - name: Build Quartz
         run: npx quartz build
+        env:
+          CSS_TRANSFORMER_WASM: "1"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
