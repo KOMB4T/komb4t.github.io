@@ -15,3 +15,8 @@ export declare global {
     addCleanup(fn: (...args: any[]) => void)
   }
 }
+
+declare module "sharp" {
+  const sharp: any
+  export default sharp
+}
