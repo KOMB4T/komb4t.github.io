@@ -34,6 +34,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install --include=optional
+      - name: Ensure simple-git native binding
+        run: npm install @napi-rs/simple-git-linux-x64-gnu@0.1.22
 
       - name: Build Quartz site
         run: npx quartz build
