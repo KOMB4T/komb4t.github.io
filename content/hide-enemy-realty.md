@@ -2,6 +2,7 @@
 title: "[GWars] Hide Enemy Realty"
 aliases:
   - scripts/hide-enemy-realty
+  - hide-enemy-realty/
 draft: false
 description: "Сортировка объектов на странице рынка ресурсов GWars."
 tags:
