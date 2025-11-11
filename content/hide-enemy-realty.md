@@ -2,7 +2,6 @@
 title: "[GWars] Hide Enemy Realty"
 aliases:
   - scripts/hide-enemy-realty
-  - hide-enemy-realty/
 draft: false
 description: "Сортировка объектов на странице рынка ресурсов GWars."
 tags:
@@ -12,45 +11,35 @@ tags:
 
 <style>
   body[data-slug="hide-enemy-realty"],
-  body[data-slug="hide-enemy-realty/index"],
-  body[data-slug="scripts/hide-enemy-realty"],
-  body[data-slug="scripts/hide-enemy-realty/index"] {
+  body[data-slug="scripts/hide-enemy-realty"] {
     background: inherit;
   }
 
   body[data-slug="hide-enemy-realty"] .left.sidebar,
-  body[data-slug="hide-enemy-realty/index"] .left.sidebar,
   body[data-slug="scripts/hide-enemy-realty"] .left.sidebar,
-  body[data-slug="scripts/hide-enemy-realty/index"] .left.sidebar,
+  body[data-slug="hide-enemy-realty"] .right.sidebar,
   body[data-slug="scripts/hide-enemy-realty"] .right.sidebar,
-  body[data-slug="scripts/hide-enemy-realty/index"] .right.sidebar,
+  body[data-slug="hide-enemy-realty"] .page-footer,
   body[data-slug="scripts/hide-enemy-realty"] .page-footer,
-  body[data-slug="scripts/hide-enemy-realty/index"] .page-footer,
-  body[data-slug="scripts/hide-enemy-realty"] hr,
-  body[data-slug="scripts/hide-enemy-realty/index"] hr {
+  body[data-slug="hide-enemy-realty"] hr,
+  body[data-slug="scripts/hide-enemy-realty"] hr {
     display: none !important;
   }
 
   body[data-slug="hide-enemy-realty"] #quartz-body,
-  body[data-slug="hide-enemy-realty/index"] #quartz-body,
-  body[data-slug="scripts/hide-enemy-realty"] #quartz-body,
-  body[data-slug="scripts/hide-enemy-realty/index"] #quartz-body {
+  body[data-slug="scripts/hide-enemy-realty"] #quartz-body {
     display: block;
   }
 
   body[data-slug="hide-enemy-realty"] .center,
-  body[data-slug="hide-enemy-realty/index"] .center,
-  body[data-slug="scripts/hide-enemy-realty"] .center,
-  body[data-slug="scripts/hide-enemy-realty/index"] .center {
+  body[data-slug="scripts/hide-enemy-realty"] .center {
     max-width: 760px;
     margin: 0 auto;
     padding: 1.35rem 1.6rem 3.2rem;
   }
 
   body[data-slug="hide-enemy-realty"] article.popover-hint,
-  body[data-slug="hide-enemy-realty/index"] article.popover-hint,
-  body[data-slug="scripts/hide-enemy-realty"] article.popover-hint,
-  body[data-slug="scripts/hide-enemy-realty/index"] article.popover-hint {
+  body[data-slug="scripts/hide-enemy-realty"] article.popover-hint {
     margin: 0;
     padding: 0;
   }

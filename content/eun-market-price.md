@@ -2,7 +2,6 @@
 title: "[GWars] EUN Market Price"
 aliases:
   - scripts/eun-market-price
-  - eun-market-price/
 draft: false
 description: "Показывает актуальный курс ГБ за 1 EUN прямо в интерфейсе рынка и подсвечивает выгодные сделки."
 tags:
@@ -11,45 +10,35 @@ tags:
 
 <style>
   body[data-slug="eun-market-price"],
-  body[data-slug="eun-market-price/index"],
-  body[data-slug="scripts/eun-market-price"],
-  body[data-slug="scripts/eun-market-price/index"] {
+  body[data-slug="scripts/eun-market-price"] {
     background: inherit;
   }
 
   body[data-slug="eun-market-price"] .left.sidebar,
-  body[data-slug="eun-market-price/index"] .left.sidebar,
   body[data-slug="scripts/eun-market-price"] .left.sidebar,
-  body[data-slug="scripts/eun-market-price/index"] .left.sidebar,
+  body[data-slug="eun-market-price"] .right.sidebar,
   body[data-slug="scripts/eun-market-price"] .right.sidebar,
-  body[data-slug="scripts/eun-market-price/index"] .right.sidebar,
+  body[data-slug="eun-market-price"] .page-footer,
   body[data-slug="scripts/eun-market-price"] .page-footer,
-  body[data-slug="scripts/eun-market-price/index"] .page-footer,
-  body[data-slug="scripts/eun-market-price"] hr,
-  body[data-slug="scripts/eun-market-price/index"] hr {
+  body[data-slug="eun-market-price"] hr,
+  body[data-slug="scripts/eun-market-price"] hr {
     display: none !important;
   }
 
   body[data-slug="eun-market-price"] #quartz-body,
-  body[data-slug="eun-market-price/index"] #quartz-body,
-  body[data-slug="scripts/eun-market-price"] #quartz-body,
-  body[data-slug="scripts/eun-market-price/index"] #quartz-body {
+  body[data-slug="scripts/eun-market-price"] #quartz-body {
     display: block;
   }
 
   body[data-slug="eun-market-price"] .center,
-  body[data-slug="eun-market-price/index"] .center,
-  body[data-slug="scripts/eun-market-price"] .center,
-  body[data-slug="scripts/eun-market-price/index"] .center {
+  body[data-slug="scripts/eun-market-price"] .center {
     max-width: 760px;
     margin: 0 auto;
     padding: 1.35rem 1.6rem 3.2rem;
   }
 
   body[data-slug="eun-market-price"] article.popover-hint,
-  body[data-slug="eun-market-price/index"] article.popover-hint,
-  body[data-slug="scripts/eun-market-price"] article.popover-hint,
-  body[data-slug="scripts/eun-market-price/index"] article.popover-hint {
+  body[data-slug="scripts/eun-market-price"] article.popover-hint {
     margin: 0;
     padding: 0;
   }
