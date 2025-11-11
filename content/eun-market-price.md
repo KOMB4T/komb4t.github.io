@@ -3,7 +3,6 @@ title: "[GWars] EUN Market Price"
 aliases:
   - scripts/eun-market-price
   - eun-market-price/
-  - eun-market-price/index
 draft: false
 description: "Показывает актуальный курс ГБ за 1 EUN прямо в интерфейсе рынка и подсвечивает выгодные сделки."
 tags:
