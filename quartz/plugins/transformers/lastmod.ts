@@ -1,6 +1,5 @@
 import fs from "fs"
 import { QuartzTransformerPlugin } from "../types"
-import path from "path"
 import { styleText } from "util"
 
 export interface Options {
@@ -41,7 +40,7 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
   const opts = { ...defaultOptions, ...userOpts }
   return {
     name: "CreatedModifiedDate",
-    markdownPlugins(ctx) {
+    markdownPlugins() {
       return [
         () => {
           return async (_tree, file) => {
