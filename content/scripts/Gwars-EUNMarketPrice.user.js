@@ -6,8 +6,8 @@
 // @author       KOMB4T
 // @match        https://www.gwars.io/market.php?buy=1&item_id=*
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/KOMB4T/GWarsScripts/main/Gwars-EUNMarketPrice.user.js
-// @downloadURL  https://raw.githubusercontent.com/KOMB4T/GWarsScripts/main/Gwars-EUNMarketPrice.user.js
+// @downloadURL  https://raw.githubusercontent.com/komb4t.github.io/scripts/Gwars-EUNMarketPrice.user.js
+// @updateURL    https://raw.githubusercontent.com/komb4t.github.io/scripts/Gwars-EUNMarketPrice.user.js
 // ==/UserScript==
 
 ;(function () {

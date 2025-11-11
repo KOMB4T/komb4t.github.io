@@ -1,56 +1,55 @@
 ---
-title: "[GWars] EUN Market Price"
-permalink: eun-market-price
+title: "[GWars] Hide Enemy Realty"
 aliases:
-  - scripts/eun-market-price
-  - scripts/eun-market-price/index
+  - scripts/hide-enemy-realty
 draft: false
-description: "Показывает актуальный курс ГБ за 1 EUN прямо в интерфейсе рынка и подсвечивает выгодные сделки."
+description: "Сортировка объектов на странице рынка ресурсов GWars."
 tags:
-  - EUN
+  - Ресурсы
+  - Сортировка
 ---
 
 <style>
-  body[data-slug="eun-market-price"],
-  body[data-slug="eun-market-price/index"],
-  body[data-slug="scripts/eun-market-price"],
-  body[data-slug="scripts/eun-market-price/index"] {
+  body[data-slug="hide-enemy-realty"],
+  body[data-slug="hide-enemy-realty/index"],
+  body[data-slug="scripts/hide-enemy-realty"],
+  body[data-slug="scripts/hide-enemy-realty/index"] {
     background: inherit;
   }
 
-  body[data-slug="eun-market-price"] .left.sidebar,
-  body[data-slug="eun-market-price/index"] .left.sidebar,
-  body[data-slug="scripts/eun-market-price"] .left.sidebar,
-  body[data-slug="scripts/eun-market-price/index"] .left.sidebar,
-  body[data-slug="scripts/eun-market-price"] .right.sidebar,
-  body[data-slug="scripts/eun-market-price/index"] .right.sidebar,
-  body[data-slug="scripts/eun-market-price"] .page-footer,
-  body[data-slug="scripts/eun-market-price/index"] .page-footer,
-  body[data-slug="scripts/eun-market-price"] hr,
-  body[data-slug="scripts/eun-market-price/index"] hr {
+  body[data-slug="hide-enemy-realty"] .left.sidebar,
+  body[data-slug="hide-enemy-realty/index"] .left.sidebar,
+  body[data-slug="scripts/hide-enemy-realty"] .left.sidebar,
+  body[data-slug="scripts/hide-enemy-realty/index"] .left.sidebar,
+  body[data-slug="scripts/hide-enemy-realty"] .right.sidebar,
+  body[data-slug="scripts/hide-enemy-realty/index"] .right.sidebar,
+  body[data-slug="scripts/hide-enemy-realty"] .page-footer,
+  body[data-slug="scripts/hide-enemy-realty/index"] .page-footer,
+  body[data-slug="scripts/hide-enemy-realty"] hr,
+  body[data-slug="scripts/hide-enemy-realty/index"] hr {
     display: none !important;
   }
 
-  body[data-slug="eun-market-price"] #quartz-body,
-  body[data-slug="eun-market-price/index"] #quartz-body,
-  body[data-slug="scripts/eun-market-price"] #quartz-body,
-  body[data-slug="scripts/eun-market-price/index"] #quartz-body {
+  body[data-slug="hide-enemy-realty"] #quartz-body,
+  body[data-slug="hide-enemy-realty/index"] #quartz-body,
+  body[data-slug="scripts/hide-enemy-realty"] #quartz-body,
+  body[data-slug="scripts/hide-enemy-realty/index"] #quartz-body {
     display: block;
   }
 
-  body[data-slug="eun-market-price"] .center,
-  body[data-slug="eun-market-price/index"] .center,
-  body[data-slug="scripts/eun-market-price"] .center,
-  body[data-slug="scripts/eun-market-price/index"] .center {
+  body[data-slug="hide-enemy-realty"] .center,
+  body[data-slug="hide-enemy-realty/index"] .center,
+  body[data-slug="scripts/hide-enemy-realty"] .center,
+  body[data-slug="scripts/hide-enemy-realty/index"] .center {
     max-width: 760px;
     margin: 0 auto;
     padding: 1.35rem 1.6rem 3.2rem;
   }
 
-  body[data-slug="eun-market-price"] article.popover-hint,
-  body[data-slug="eun-market-price/index"] article.popover-hint,
-  body[data-slug="scripts/eun-market-price"] article.popover-hint,
-  body[data-slug="scripts/eun-market-price/index"] article.popover-hint {
+  body[data-slug="hide-enemy-realty"] article.popover-hint,
+  body[data-slug="hide-enemy-realty/index"] article.popover-hint,
+  body[data-slug="scripts/hide-enemy-realty"] article.popover-hint,
+  body[data-slug="scripts/hide-enemy-realty/index"] article.popover-hint {
     margin: 0;
     padding: 0;
   }
@@ -165,7 +164,7 @@ tags:
   .script-header {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.75rem;
   }
 
   .script-intro {
@@ -285,38 +284,37 @@ tags:
 <div class="script-layout">
   <section class="script-card script-header">
     <div class="script-intro">
-      <p>Отображает живой курс обмена EUN прямо на рынке и помогает сравнивать предложения.</p>
-      <span class="info-chip"><strong>Версия:</strong> 0.1</span>
+      <p>Сортировка объектов на странице рынка ресурсов GWars.</p>
+      <span class="info-chip"><strong>Версия:</strong> 0.3.0</span>
     </div>
 
   <div class="script-actions">
-      <a class="cta-primary" href="../scripts/Gwars-EUNMarketPrice.user.js">Установить скрипт</a>
-      <a class="cta-secondary" href="https://komb4t.github.io/scripts/Gwars-EUNMarketPrice.user.js" target="_blank" rel="noreferrer noopener">Открыть raw-версию</a>
+      <a class="cta-primary" href="./GWars-HideEnemyRealtyOnMarket.user.js">Установить скрипт</a>
+      <a class="cta-secondary" href="https://komb4t.github.io/scripts/GWars-HideEnemyRealtyOnMarket.user.js" target="_blank" rel="noreferrer noopener">Открыть raw-версию</a>
     </div>
   </section>
 
   <section class="script-card script-section">
     <h2>Что делает скрипт</h2>
     <ul class="feature-list">
-      <li>Подтягивает актуальный курс с биржи (<code>market.php?stage=21</code>), кэширует его на 5 минут и показывает рядом с базовой ценой (анализирует топ-3 предложения).</li>
-      <li>Пишет время обновления и минимальную цену коммерческих лотов, чтобы понимать свежесть данных.</li>
-      <li>Добавляет к каждой цене подсказку: курс чистого и «грязного» EUN текущего лота.</li>
-      <li>Подсвечивает выгодные лоты, если цена продажи не выше текущего рыночного курса.</li>
-      <li>Указывает сколько вы получите при продаже государству (‑10 %) прямо в блоке базовой цены.</li>
+      <li>Переносит зачёркнутые объекты рынка в конец таблицы и выделяет их отдельным фоном.</li>
+      <li>Добавляет панель сортировки активных позиций — по цене, объёму или дальности.</li>
+      <li>Запоминает выбранный режим сортировки в <code>localStorage</code>, чтобы он сохранялся между посещениями.</li>
+      <li>Аккуратно встраивается только на страницах <code>statlist.php</code>, не затрагивая другие страницы.</li>
     </ul>
   </section>
 
   <section class="script-gallery">
     <figure>
-      <img src="/eun-market-price/screenshot-1.png" alt="Отображение курса EUN на ДО" loading="lazy" />
-      <figcaption>Отображается рыночный курс EUN и расчет цены за чистый и грязный EUN. Выгодная курс за грязный EUN выделен жирным.</figcaption>
+      <img src="/hide-enemy-realty/screenshot-1.png" alt="Сортировка на рынке ресурсов GWars" loading="lazy" />
+      <figcaption>Панель сортировки добавляет опции «по удалённости», «по объёму» и «по цене», а активные позиции остаются наверху списка.</figcaption>
     </figure>
   </section>
 
   <section class="script-card">
     <div class="script-actions">
-      <a class="cta-primary" href="../scripts/Gwars-EUNMarketPrice.user.js">Установить скрипт</a>
-      <a class="cta-secondary" href="https://komb4t.github.io/scripts/Gwars-EUNMarketPrice.user.js" target="_blank" rel="noreferrer noopener">Открыть raw-версию</a>
+      <a class="cta-primary" href="./GWars-HideEnemyRealtyOnMarket.user.js">Установить скрипт</a>
+      <a class="cta-secondary" href="https://komb4t.github.io/scripts/GWars-HideEnemyRealtyOnMarket.user.js" target="_blank" rel="noreferrer noopener">Открыть raw-версию</a>
     </div>
   </section>
 
@@ -325,7 +323,7 @@ tags:
     <ul class="feature-list">
       <li>Установите менеджер пользовательских скриптов — <a href="https://violentmonkey.github.io/get-it/" target="_blank" rel="noreferrer noopener">Violentmonkey</a> или <a href="https://www.tampermonkey.net/" target="_blank" rel="noreferrer noopener">Tampermonkey</a>.</li>
       <li>Нажмите кнопку «Установить скрипт» выше и подтвердите установку в появившемся окне.</li>
-      <li>Перезагрузите вкладку с gwars.io — улучшения подхватятся автоматически. Обновления прилетают через <code>@updateURL</code>.</li>
+      <li>Перезагрузите вкладку с <code>gwars.io</code> — улучшения подхватятся автоматически. Обновления прилетают через <code>@updateURL</code>.</li>
     </ul>
   </section>
 

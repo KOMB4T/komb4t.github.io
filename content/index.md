@@ -234,19 +234,19 @@ draft: false
       <button type="button" data-tag="EUN"># EUN</button>      
     </div>
     <div class="script-catalog">
-      <article class="script-card" data-tags="Ресурсы,Экономика">
-        <h2><a href="eun-market-price">[GWars] EUN Market Price</a></h2>
+      <article class="script-card" data-tags="EUN">
+        <h2><a href="/eun-market-price">[GWars] EUN Market Price</a></h2>
         <p>Показывает реальный курс ГБ за 1 EUN, помечает выгодные лоты и помогает быстро сравнить предложения на бирже.</p>
         <ul class="tag-list">
           <li># EUN</li>
         </ul>
         <div class="actions">
           <a class="install-link" href="scripts/Gwars-EUNMarketPrice.user.js">Установить</a>
-          <a class="more-link" href="eun-market-price">Подробнее →</a>
+          <a class="more-link" href="/eun-market-price">Подробнее →</a>
         </div>
       </article>
       <article class="script-card" data-tags="Ресурсы,Сортировка">
-        <h2><a href="hide-enemy-realty">[GWars] Hide Enemy Realty on Market</a></h2>
+        <h2><a href="/hide-enemy-realty">[GWars] Hide Enemy Realty on Market</a></h2>
         <p>На рынке ресурсов двигает зачеркнутые объекты в конец и добавляет удобную сортировку активных позиций.</p>
         <ul class="tag-list">
           <li># Ресурсы</li>
@@ -254,19 +254,19 @@ draft: false
         </ul>
         <div class="actions">
           <a class="install-link" href="scripts/%5BGWars%5DHideEnemyRealtyOnMarket.user.js">Установить</a>
-          <a class="more-link" href="hide-enemy-realty">Подробнее →</a>
+          <a class="more-link" href="/hide-enemy-realty">Подробнее →</a>
         </div>
       </article>
     </div>
   </section>
 
-  <section class="script-card catalog-install">
-    <h2>Как установить userscript</h2>
-    <ol class="install-steps">
-      <li>Поставьте менеджер — <a href="https://violentmonkey.github.io/get-it/" target="_blank" rel="noreferrer noopener">Violentmonkey</a> или <a href="https://www.tampermonkey.net/" target="_blank" rel="noreferrer noopener">Tampermonkey</a> (Firefox, Chrome, Edge, Vivaldi, Safari и другие Chromium-браузеры).</li>
-      <li>Нажмите «Установить» у выбранного скрипта на этой странице и подтвердите установку в расширении.</li>
-      <li>Обновите вкладку с <code>gwars.io</code> — скрипт активируется сразу, а обновления прилетают автоматически через <code>@updateURL</code>.</li>
-    </ol>
+  <section class="script-card script-section">
+    <h2>Как установить</h2>
+    <ul class="feature-list">
+      <li>Установите менеджер пользовательских скриптов — <a href="https://violentmonkey.github.io/get-it/" target="_blank" rel="noreferrer noopener">Violentmonkey</a> или <a href="https://www.tampermonkey.net/" target="_blank" rel="noreferrer noopener">Tampermonkey</a>.</li>
+      <li>Нажмите кнопку «Установить скрипт» выше и подтвердите установку в появившемся окне.</li>
+      <li>Перезагрузите вкладку с <code>gwars.io</code> — улучшения подхватятся автоматически. Обновления прилетают через <code>@updateURL</code>.</li>
+    </ul>
   </section>
 
   <section class="script-card support-card">
