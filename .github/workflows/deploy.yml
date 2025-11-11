@@ -28,10 +28,13 @@ jobs:
         run: corepack enable && corepack prepare npm@10.9.2 --activate
       - name: Install Dependencies
         run: npm install --include=optional
-      - name: Rebuild native modules
-        run: npm rebuild lightningcss --platform=linux --arch=x64
+        env:
+          npm_config_platform: linux
+          npm_config_arch: x64
       - name: Build Quartz
         run: npx quartz build
+        env:
+          LIGHTNINGCSS_FORCE_WASM: "true"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
