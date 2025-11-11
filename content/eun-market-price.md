@@ -274,7 +274,7 @@ tags:
   <section class="script-card script-header">
     <div class="script-intro">
       <p>Показывает рыночный курс ГБ за 1 EUN, помечает выгодные лоты и помогает быстро сравнить предложения на доске объявлений.</p>
-      <span class="info-chip"><strong>Версия:</strong> 0.1</span>
+      <span class="info-chip"><strong>Версия:</strong> 0.2</span>
     </div>
 
   <div class="script-actions">
