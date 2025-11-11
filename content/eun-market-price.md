@@ -273,7 +273,7 @@ tags:
 <div class="script-layout">
   <section class="script-card script-header">
     <div class="script-intro">
-      <p>Отображает живой курс обмена EUN прямо на рынке и помогает сравнивать предложения.</p>
+      <p>Показывает рыночный курс ГБ за 1 EUN, помечает выгодные лоты и помогает быстро сравнить предложения на доске объявлений.</p>
       <span class="info-chip"><strong>Версия:</strong> 0.1</span>
     </div>
 

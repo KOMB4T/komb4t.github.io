@@ -274,7 +274,7 @@ tags:
 <div class="script-layout">
   <section class="script-card script-header">
     <div class="script-intro">
-      <p>Сортировка объектов на странице рынка ресурсов GWars.</p>
+      <p>На рынке ресурсов двигает зачеркнутые объекты в конец и добавляет сортировку активных позиций.</p>
       <span class="info-chip"><strong>Версия:</strong> 0.3.0</span>
     </div>
 
