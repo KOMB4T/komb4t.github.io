@@ -1,11 +1,12 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import type { QuartzComponent } from "./quartz/components/types"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.TagFilter()],
   footer: Component.Footer(),
 }
 
@@ -22,29 +23,17 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        //{ Component: Component.ReaderMode() },
-      ],
-    }),
+    Component.Darkmode(),
+    Component.Search(),
     Component.Explorer({
       title: "Скрипты",
       folderDefaultState: "open",
       folderClickBehavior: "collapse",
       useSavedState: true,
     }),
+    Component.TagSidebar(),
   ],
-  right: [
-    //Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    //Component.Backlinks(),
-  ],
+  right: [],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
@@ -52,17 +41,15 @@ export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
+    Component.Darkmode(),
+    Component.Search(),
+    Component.Explorer({
+      title: "Скрипты",
+      folderDefaultState: "open",
+      folderClickBehavior: "collapse",
+      useSavedState: true,
     }),
-    Component.Explorer(),
+    Component.TagSidebar(),
   ],
   right: [],
 }

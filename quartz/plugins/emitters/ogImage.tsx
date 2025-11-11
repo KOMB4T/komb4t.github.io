@@ -3,7 +3,6 @@ import { i18n } from "../../i18n"
 import { unescapeHTML } from "../../util/escape"
 import { FullSlug, getFileExtension, isAbsoluteURL, joinSegments, QUARTZ } from "../../util/path"
 import { ImageOptions, SocialImageOptions, defaultImage, getSatoriFonts } from "../../util/og"
-import sharp from "sharp"
 import satori, { SatoriOptions } from "satori"
 import { loadEmoji, getIconCode } from "../../util/emoji"
 import { Readable } from "stream"
@@ -12,6 +11,24 @@ import { BuildCtx } from "../../util/ctx"
 import { QuartzPluginData } from "../vfile"
 import fs from "node:fs/promises"
 import { styleText } from "util"
+import { createRequire } from "module"
+
+const require = createRequire(import.meta.url)
+
+let sharpModule: any
+function getSharp() {
+  if (!sharpModule) {
+    try {
+      sharpModule = require("sharp")
+    } catch {
+      throw new Error(
+        "Optional dependency 'sharp' is required for CustomOgImages emitter. Install it with `npm install sharp`.",
+      )
+    }
+  }
+
+  return sharpModule.default ?? sharpModule
+}
 
 const defaultOptions: SocialImageOptions = {
   colorScheme: "lightMode",
@@ -62,6 +79,7 @@ async function generateSocialImage(
     },
   })
 
+  const sharp = getSharp()
   return sharp(Buffer.from(svg)).webp({ quality: 40 })
 }
 

@@ -4,7 +4,7 @@ import { CSSResourceToStyleElement, JSResourceToScriptElement } from "../util/re
 import { googleFontHref, googleFontSubsetHref } from "../util/theme"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { unescapeHTML } from "../util/escape"
-import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage"
+const CUSTOM_OG_IMAGE_EMITTER = "CustomOgImages"
 export default (() => {
   const Head: QuartzComponent = ({
     cfg,
@@ -32,7 +32,7 @@ export default (() => {
       fileData.slug === "404" ? url.toString() : joinSegments(url.toString(), fileData.slug!)
 
     const usesCustomOgImage = ctx.cfg.plugins.emitters.some(
-      (e) => e.name === CustomOgImagesEmitterName,
+      (e) => e.name === CUSTOM_OG_IMAGE_EMITTER,
     )
     const ogImageDefaultPath = `https://${cfg.baseUrl}/static/og-image.png`
 
