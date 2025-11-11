@@ -10,6 +10,7 @@ tags:
   - Ресурсы
   - Сортировка
 ---
+
 <style>
   body[data-slug="hide-enemy-realty"],
   body[data-slug="hide-enemy-realty/index"],
@@ -305,7 +306,6 @@ tags:
     </ul>
   </section>
 
-
   <section class="script-gallery">
     <figure>
       <img src="/hide-enemy-realty/screenshot-1.png" alt="Сортировка на рынке ресурсов GWars" loading="lazy" />
@@ -320,8 +320,6 @@ tags:
     </div>
   </section>
 
-
-
   <section class="script-card script-section">
     <h2>Как установить</h2>
     <ul class="feature-list">
@@ -335,12 +333,3 @@ tags:
     Если нашли баг — <a href="https://www.gwars.io/sms-chat.php?id=339736" target="_blank" rel="noreferrer noopener">напишите мне</a>, посмотрим что можно сделать.
   </section>
 </div>
-
-
-
-
-
-
-
-
-

@@ -9,6 +9,7 @@ description: "Показывает актуальный курс ГБ за 1 EUN
 tags:
   - EUN
 ---
+
 <style>
   body[data-slug="eun-market-price"],
   body[data-slug="eun-market-price/index"],
@@ -305,7 +306,6 @@ tags:
     </ul>
   </section>
 
-
   <section class="script-gallery">
     <figure>
       <img src="/eun-market-price/screenshot-1.png" alt="Отображение курса EUN на ДО" loading="lazy" />
@@ -333,12 +333,3 @@ tags:
     Если нашли баг — <a href="https://www.gwars.io/sms-chat.php?id=339736" target="_blank" rel="noreferrer noopener">напишите мне</a>, посмотрим что можно сделать.
   </section>
 </div>
-
-
-
-
-
-
-
-
-

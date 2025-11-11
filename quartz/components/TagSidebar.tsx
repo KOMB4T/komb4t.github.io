@@ -19,10 +19,13 @@ const TagSidebar: QuartzComponent = ({ allFiles, fileData }: QuartzComponentProp
     return null
   }
 
-  const baseDir = pathToRoot(fileData.slug ?? "")
-  const sortedTags = Array.from(tagCounts.entries()).sort((a, b) =>
-    a[0].localeCompare(b[0], "ru"),
-  )
+  const slug = fileData.slug
+  if (!slug) {
+    return null
+  }
+
+  const baseDir = pathToRoot(slug)
+  const sortedTags = Array.from(tagCounts.entries()).sort((a, b) => a[0].localeCompare(b[0], "ru"))
 
   return (
     <nav class="tag-sidebar">
@@ -100,4 +103,3 @@ TagSidebar.css = `
 `
 
 export default (() => TagSidebar) satisfies QuartzComponentConstructor
-

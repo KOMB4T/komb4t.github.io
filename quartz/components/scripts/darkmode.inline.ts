@@ -48,9 +48,9 @@ const setupThemeToggle = () => {
     updateThemeButton(newTheme)
   }
 
-  const currentTheme = (document.documentElement.getAttribute("saved-theme") === "dark"
-    ? "dark"
-    : "light") as "light" | "dark"
+  const currentTheme = (
+    document.documentElement.getAttribute("saved-theme") === "dark" ? "dark" : "light"
+  ) as "light" | "dark"
   updateThemeButton(currentTheme)
 
   themeButton.addEventListener("click", switchTheme)
