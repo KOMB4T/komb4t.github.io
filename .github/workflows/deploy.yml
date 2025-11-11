@@ -23,9 +23,14 @@ jobs:
           fetch-depth: 0 # Fetch all history for git info
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 20.19.0
+      - name: Ensure npm version
+        run: corepack enable && corepack prepare npm@10.9.2 --activate
       - name: Install Dependencies
-        run: npm ci
+        run: npm install --include=optional
+        env:
+          npm_config_platform: linux
+          npm_config_arch: x64
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
