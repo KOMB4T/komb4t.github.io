@@ -31,6 +31,8 @@ jobs:
         env:
           npm_config_platform: linux
           npm_config_arch: x64
+      - name: Install lightningcss wasm fallback
+        run: npm install @lightningcss/wasm@1.12.2 --no-save
       - name: Build Quartz
         run: npx quartz build
         env:
