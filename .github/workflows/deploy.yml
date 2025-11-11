@@ -34,7 +34,7 @@ jobs:
       - name: Build Quartz
         run: npx quartz build
         env:
-          LIGHTNINGCSS_FORCE_WASM: "true"
+          CSS_TRANSFORMER_WASM: "1"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
