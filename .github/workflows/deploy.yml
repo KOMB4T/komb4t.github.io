@@ -24,8 +24,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Ensure npm version
+        run: corepack enable && corepack prepare npm@10.9.2 --activate
       - name: Install Dependencies
         run: npm install --include=optional
+      - name: Rebuild native modules
+        run: npm rebuild lightningcss --platform=linux --arch=x64
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
