@@ -6,9 +6,8 @@
 // @match        https://www.gwars.io/statlist.php*
 // @grant        none
 // @run-at       document-end
-// @homepageURL  https://komb4t.github.io/scripts/hide-enemy-realty/
-// @downloadURL  https://komb4t.github.io/scripts/%5BGWars%5DHideEnemyRealtyOnMarket.user.js
-// @updateURL    https://komb4t.github.io/scripts/%5BGWars%5DHideEnemyRealtyOnMarket.user.js
+// @downloadURL  https://raw.githubusercontent.com/KOMB4T/GWarsScripts/main/%5BGWars%5DHideEnemyRealtyOnMarket.user.js
+// @updateURL    https://raw.githubusercontent.com/KOMB4T/GWarsScripts/main/%5BGWars%5DHideEnemyRealtyOnMarket.user.js
 // ==/UserScript==
 
 (function () {

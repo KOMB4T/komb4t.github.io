@@ -231,8 +231,20 @@ draft: false
       <button type="button" class="filter-reset" aria-label="Сбросить фильтры">Сбросить фильтр</button>
       <button type="button" data-tag="Ресурсы"># Ресурсы</button>
       <button type="button" data-tag="Сортировка"># Сортировка</button>
+      <button type="button" data-tag="EUN"># EUN</button>      
     </div>
     <div class="script-catalog">
+      <article class="script-card" data-tags="Ресурсы,Экономика">
+        <h2><a href="eun-market-price">[GWars] EUN Market Price</a></h2>
+        <p>Показывает реальный курс ГБ за 1 EUN, помечает выгодные лоты и помогает быстро сравнить предложения на бирже.</p>
+        <ul class="tag-list">
+          <li># EUN</li>
+        </ul>
+        <div class="actions">
+          <a class="install-link" href="scripts/Gwars-EUNMarketPrice.user.js">Установить</a>
+          <a class="more-link" href="eun-market-price">Подробнее →</a>
+        </div>
+      </article>
       <article class="script-card" data-tags="Ресурсы,Сортировка">
         <h2><a href="hide-enemy-realty">[GWars] Hide Enemy Realty on Market</a></h2>
         <p>На рынке ресурсов двигает зачеркнутые объекты в конец и добавляет удобную сортировку активных позиций.</p>
