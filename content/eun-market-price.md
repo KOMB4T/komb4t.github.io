@@ -296,30 +296,18 @@ tags:
   <section class="script-card script-section">
     <h2>Что делает скрипт</h2>
     <ul class="feature-list">
-<<<<<<< HEAD
       <li>Подтягивает актуальный курс с доски объявлений (анализирует топ-3 предложения <code>market.php?stage=21</code>), кэширует его на 5 минут и показывает рядом с базовой ценой .</li>
       <li>Указывает сколько вы получите при продаже в гос. (‑10 %) прямо в блоке базовой цены.</li>
       <li>Пишет время обновления и минимальную цену лотов, чтобы понимать свежесть данных.</li>
       <li>Добавляет к каждой цене подсказку: курс чистого и «грязного» EUN текущего лота.</li>
       <li>Подсвечивает выгодные лоты, если цена продажи не выше текущего рыночного курса.</li>
-=======
-      <li>Подтягивает актуальный курс с биржи (<code>market.php?stage=21</code>), кэширует его на 5 минут и показывает рядом с базовой ценой (анализирует топ-3 предложения).</li>
-      <li>Пишет время обновления и минимальную цену коммерческих лотов, чтобы понимать свежесть данных.</li>
-      <li>Добавляет к каждой цене подсказку: курс чистого и «грязного» EUN текущего лота.</li>
-      <li>Подсвечивает выгодные лоты, если цена продажи не выше текущего рыночного курса.</li>
-      <li>Указывает сколько вы получите при продаже государству (‑10 %) прямо в блоке базовой цены.</li>
->>>>>>> 03508c509172678d69d0399f5a711b17fed818e5
     </ul>
   </section>
 
   <section class="script-gallery">
     <figure>
       <img src="/eun-market-price/screenshot-1.png" alt="Отображение курса EUN на ДО" loading="lazy" />
-<<<<<<< HEAD
       <figcaption>Отображается рыночный курс EUN и расчет цены за чистый и грязный EUN. Выгодный курс за грязный EUN выделен жирным.</figcaption>
-=======
-      <figcaption>Отображается рыночный курс EUN и расчет цены за чистый и грязный EUN. Выгодная курс за грязный EUN выделен жирным.</figcaption>
->>>>>>> 03508c509172678d69d0399f5a711b17fed818e5
     </figure>
   </section>
 
@@ -329,20 +317,4 @@ tags:
       <a class="cta-secondary" href="https://komb4t.github.io/scripts/Gwars-EUNMarketPrice.user.js" target="_blank" rel="noreferrer noopener">Открыть raw-версию</a>
     </div>
   </section>
-<<<<<<< HEAD
-=======
-
-  <section class="script-card script-section">
-    <h2>Как установить</h2>
-    <ul class="feature-list">
-      <li>Установите менеджер пользовательских скриптов — <a href="https://violentmonkey.github.io/get-it/" target="_blank" rel="noreferrer noopener">Violentmonkey</a> или <a href="https://www.tampermonkey.net/" target="_blank" rel="noreferrer noopener">Tampermonkey</a>.</li>
-      <li>Нажмите кнопку «Установить скрипт» выше и подтвердите установку в появившемся окне.</li>
-      <li>Перезагрузите вкладку с <code>gwars.io</code> — улучшения подхватятся автоматически. Обновления прилетают через <code>@updateURL</code>.</li>
-    </ul>
-  </section>
-
-  <section class="support-box">
-    Если нашли баг — <a href="https://www.gwars.io/sms-chat.php?id=339736" target="_blank" rel="noreferrer noopener">напишите мне</a>, посмотрим что можно сделать.
-  </section>
->>>>>>> 03508c509172678d69d0399f5a711b17fed818e5
 </div>

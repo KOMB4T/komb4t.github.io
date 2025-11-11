@@ -317,20 +317,4 @@ tags:
       <a class="cta-secondary" href="https://komb4t.github.io/scripts/GWars-HideEnemyRealtyOnMarket.user.js" target="_blank" rel="noreferrer noopener">Открыть raw-версию</a>
     </div>
   </section>
-<<<<<<< HEAD
-=======
-
-  <section class="script-card script-section">
-    <h2>Как установить</h2>
-    <ul class="feature-list">
-      <li>Установите менеджер пользовательских скриптов — <a href="https://violentmonkey.github.io/get-it/" target="_blank" rel="noreferrer noopener">Violentmonkey</a> или <a href="https://www.tampermonkey.net/" target="_blank" rel="noreferrer noopener">Tampermonkey</a>.</li>
-      <li>Нажмите кнопку «Установить скрипт» выше и подтвердите установку в появившемся окне.</li>
-      <li>Перезагрузите вкладку с <code>gwars.io</code> — улучшения подхватятся автоматически. Обновления прилетают через <code>@updateURL</code>.</li>
-    </ul>
-  </section>
-
-  <section class="support-box">
-    Если нашли баг — <a href="https://www.gwars.io/sms-chat.php?id=339736" target="_blank" rel="noreferrer noopener">напишите мне</a>, посмотрим что можно сделать.
-  </section>
->>>>>>> 03508c509172678d69d0399f5a711b17fed818e5
 </div>

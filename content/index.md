@@ -220,11 +220,7 @@ draft: false
 
 <div class="catalog-layout">
   <section class="script-card catalog-hero">
-<<<<<<< HEAD
     <p>Стабильные версии скриптов для <strong>GWars</strong>. Делают интерфейс удобнее, но не играют за вас — никаких запрещенных автоматизаций.</p>
-=======
-    <p>Стабильные версии скриптов для <strong>GanjaWars</strong>. Делают интерфейс удобнее, но не играют за вас — никаких запрещенных автоматизаций.</p>
->>>>>>> 03508c509172678d69d0399f5a711b17fed818e5
     <p>Я формулирую задачу, а код пишет нейронка. Основной сценарий — десктоп, однако часть функций работает и в мобильных браузерах.</p>
   </section>
 
@@ -240,11 +236,7 @@ draft: false
     <div class="script-catalog">
       <article class="script-card" data-tags="EUN">
         <h2><a href="/eun-market-price">[GWars] EUN Market Price</a></h2>
-<<<<<<< HEAD
         <p>Показывает рыночный курс ГБ за 1 EUN, помечает выгодные лоты и помогает быстро сравнить предложения на доске объявлений.</p>
-=======
-        <p>Показывает реальный курс ГБ за 1 EUN, помечает выгодные лоты и помогает быстро сравнить предложения на бирже.</p>
->>>>>>> 03508c509172678d69d0399f5a711b17fed818e5
         <ul class="tag-list">
           <li># EUN</li>
         </ul>
@@ -255,40 +247,16 @@ draft: false
       </article>
       <article class="script-card" data-tags="Ресурсы,Сортировка">
         <h2><a href="/hide-enemy-realty">[GWars] Hide Enemy Realty on Market</a></h2>
-<<<<<<< HEAD
         <p>На рынке ресурсов двигает зачеркнутые объекты в конец и добавляет сортировку активных позиций.</p>
-=======
-        <p>На рынке ресурсов двигает зачеркнутые объекты в конец и добавляет удобную сортировку активных позиций.</p>
->>>>>>> 03508c509172678d69d0399f5a711b17fed818e5
         <ul class="tag-list">
           <li># Ресурсы</li>
           <li># Сортировка</li>
         </ul>
         <div class="actions">
-<<<<<<< HEAD
           <a class="install-link" href="scripts/GWars-HideEnemyRealtyOnMarket.user.js">Установить</a>
-=======
-          <a class="install-link" href="scripts/%5BGWars%5DHideEnemyRealtyOnMarket.user.js">Установить</a>
->>>>>>> 03508c509172678d69d0399f5a711b17fed818e5
           <a class="more-link" href="/hide-enemy-realty">Подробнее →</a>
         </div>
       </article>
     </div>
   </section>
-<<<<<<< HEAD
-=======
-
-  <section class="script-card script-section">
-    <h2>Как установить</h2>
-    <ul class="feature-list">
-      <li>Установите менеджер пользовательских скриптов — <a href="https://violentmonkey.github.io/get-it/" target="_blank" rel="noreferrer noopener">Violentmonkey</a> или <a href="https://www.tampermonkey.net/" target="_blank" rel="noreferrer noopener">Tampermonkey</a>.</li>
-      <li>Нажмите кнопку «Установить скрипт» выше и подтвердите установку в появившемся окне.</li>
-      <li>Перезагрузите вкладку с <code>gwars.io</code> — улучшения подхватятся автоматически. Обновления прилетают через <code>@updateURL</code>.</li>
-    </ul>
-  </section>
-
-  <section class="script-card support-card">
-    <p>Нужен другой скрипт или нашли баг? <a href="https://www.gwars.io/sms-chat.php?id=339736" target="_blank" rel="noreferrer noopener">Напишите мне</a>, придумаем решение.</p>
-  </section>
->>>>>>> 03508c509172678d69d0399f5a711b17fed818e5
 </div>
