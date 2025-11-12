@@ -231,7 +231,8 @@ draft: false
       <button type="button" class="filter-reset" aria-label="Сбросить фильтры">Сбросить фильтр</button>
       <button type="button" data-tag="Ресурсы"># Ресурсы</button>
       <button type="button" data-tag="Сортировка"># Сортировка</button>
-      <button type="button" data-tag="EUN"># EUN</button>      
+      <button type="button" data-tag="EUN"># EUN</button>
+      <button type="button" data-tag="Ферма"># Ферма</button>      
     </div>
     <div class="script-catalog">
       <article class="script-card" data-tags="EUN">
@@ -255,6 +256,17 @@ draft: false
         <div class="actions">
           <a class="install-link" href="scripts/GWars-HideEnemyRealtyOnMarket.user.js">Установить</a>
           <a class="more-link" href="/hide-enemy-realty">Подробнее →</a>
+        </div>
+      </article>
+      <article class="script-card" data-tags="Ферма">
+        <h2><a href="/farm-beaver-feed">[GWars] Farm Beaver Feed</a></h2>
+        <p>Автоматически блокирует ссылки "Собрать урожай" и добавляет заметную ссылку "Пора кормить бобра", когда на ферме есть голодный бобр.</p>
+        <ul class="tag-list">
+          <li># Ферма</li>
+        </ul>
+        <div class="actions">
+          <a class="install-link" href="scripts/GWars-FarmBeaverFeed.user.js">Установить</a>
+          <a class="more-link" href="/farm-beaver-feed">Подробнее →</a>
         </div>
       </article>
     </div>
