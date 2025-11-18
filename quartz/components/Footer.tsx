@@ -52,6 +52,21 @@ export default ((opts?: Options) => {
               , придумаем решение.
             </p>
           </section>
+
+          <section class="script-card support-card">
+            <p>
+              Если эти скрипты сделали вашу игру комфортнее, 
+              не стесняйтесь{" "}
+              <a
+                href="https://www.gwars.io/send.php?toname=KOMBAT"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                отблагодарить автора
+              </a>{" "}
+              переводом до 1кк ГБ или еунами на счет. Ваша поддержка помогает мне развивать это направление.
+            </p>
+          </section>
         </div>
 
         {links && Object.keys(links).length > 0 && (

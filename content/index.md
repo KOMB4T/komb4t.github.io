@@ -232,7 +232,8 @@ draft: false
       <button type="button" data-tag="Ресурсы"># Ресурсы</button>
       <button type="button" data-tag="Сортировка"># Сортировка</button>
       <button type="button" data-tag="EUN"># EUN</button>
-      <button type="button" data-tag="Ферма"># Ферма</button>      
+      <button type="button" data-tag="Ферма"># Ферма</button>
+      <button type="button" data-tag="Предметы"># Предметы</button>      
     </div>
     <div class="script-catalog">
       <article class="script-card" data-tags="EUN">
@@ -267,6 +268,18 @@ draft: false
         <div class="actions">
           <a class="install-link" href="scripts/GWars-FarmBeaverFeed.user.js">Установить</a>
           <a class="more-link" href="/farm-beaver-feed">Подробнее →</a>
+        </div>
+      </article>
+      <article class="script-card" data-tags="Предметы,Сортировка">
+        <h2><a href="/broken-items-sort">[GWars] Broken Items Sort</a></h2>
+        <p>Автоматически поднимает сломанные и истекшие предметы в начало списка на странице инвентаря, чтобы вы сразу видели, что требует внимания.</p>
+        <ul class="tag-list">
+          <li># Предметы</li>
+          <li># Сортировка</li>
+        </ul>
+        <div class="actions">
+          <a class="install-link" href="scripts/Gwars-BrokenItemsSort.user.js">Установить</a>
+          <a class="more-link" href="/broken-items-sort">Подробнее →</a>
         </div>
       </article>
     </div>
