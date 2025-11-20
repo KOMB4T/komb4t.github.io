@@ -233,7 +233,8 @@ draft: false
       <button type="button" data-tag="Сортировка"># Сортировка</button>
       <button type="button" data-tag="EUN"># EUN</button>
       <button type="button" data-tag="Ферма"># Ферма</button>
-      <button type="button" data-tag="Предметы"># Предметы</button>      
+      <button type="button" data-tag="Предметы"># Предметы</button>
+      <button type="button" data-tag="Карта"># Карта</button>      
     </div>
     <div class="script-catalog">
       <article class="script-card" data-tags="EUN">
@@ -280,6 +281,17 @@ draft: false
         <div class="actions">
           <a class="install-link" href="scripts/Gwars-BrokenItemsSort.user.js">Установить</a>
           <a class="more-link" href="/broken-items-sort">Подробнее →</a>
+        </div>
+      </article>
+      <article class="script-card" data-tags="Карта">
+        <h2><a href="/outland-departure-link">[GWars] Outland Departure Link</a></h2>
+        <p>Добавляет ссылку для быстрого отплытия на Outland (Overlord Point) на основе текущего сектора, чтобы не искать нужный сектор вручную при каждом отплытии.</p>
+        <ul class="tag-list">
+          <li># Карта</li>
+        </ul>
+        <div class="actions">
+          <a class="install-link" href="scripts/GWars-OutlandDepartureLink.user.js">Установить</a>
+          <a class="more-link" href="/outland-departure-link">Подробнее →</a>
         </div>
       </article>
     </div>
