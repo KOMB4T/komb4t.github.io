@@ -234,7 +234,8 @@ draft: false
       <button type="button" data-tag="EUN"># EUN</button>
       <button type="button" data-tag="Ферма"># Ферма</button>
       <button type="button" data-tag="Предметы"># Предметы</button>
-      <button type="button" data-tag="Карта"># Карта</button>      
+      <button type="button" data-tag="Карта"># Карта</button>
+      <button type="button" data-tag="Порты"># Порты</button>      
     </div>
     <div class="script-catalog">
       <article class="script-card" data-tags="EUN">
@@ -292,6 +293,17 @@ draft: false
         <div class="actions">
           <a class="install-link" href="scripts/GWars-OutlandDepartureLink.user.js">Установить</a>
           <a class="more-link" href="/outland-departure-link">Подробнее →</a>
+        </div>
+      </article>
+      <article class="script-card" data-tags="Порты">
+        <h2><a href="/port-timer-notif">[GWars] Port Timer Notif</a></h2>
+        <p>Отображает нотификацию о ближайшем портовом бое с динамическим изменением цвета в зависимости от времени до начала боя. Интегрируется в заголовок страницы, при наличии кэша из другого скрипта показывает статистику побед за период.</p>
+        <ul class="tag-list">
+          <li># Порты</li>
+        </ul>
+        <div class="actions">
+          <a class="install-link" href="scripts/Gwars-PortTimerNotif.user.js">Установить</a>
+          <a class="more-link" href="/port-timer-notif">Подробнее →</a>
         </div>
       </article>
     </div>
