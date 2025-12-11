@@ -7,8 +7,8 @@
 // @match        https://www.gwars.io/syndicate.php*
 // @grant        none
 // @author       KOMB4T
-// @downloadURL  https://raw.githubusercontent.com/KOMB4t.github.io/scripts/GWars-HideEnemyRealtyOnMarket.user.js
-// @updateURL    https://raw.githubusercontent.com/KOMB4t.github.io/scripts/GWars-HideEnemyRealtyOnMarket.user.js
+// @downloadURL  https://komb4t.github.io/scripts/GWars-HideEnemyRealtyOnMarket.user.js
+// @updateURL    https://komb4t.github.io/scripts/GWars-HideEnemyRealtyOnMarket.user.js
 // @run-at       document-end
 // ==/UserScript==
 

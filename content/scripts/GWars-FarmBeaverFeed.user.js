@@ -7,8 +7,8 @@
 // @match        https://www.gwars.io/ferma.php*
 // @grant        none
 // @run-at       document-end
-// @updateURL    https://raw.githubusercontent.com/komb4t.github.io/scripts/GWars-FarmBeaverFeed.user.js
-// @downloadURL  https://raw.githubusercontent.com/komb4t.github.io/scripts/GWars-FarmBeaverFeed.user.js
+// @updateURL    https://komb4t.github.io/scripts/GWars-FarmBeaverFeed.user.js
+// @downloadURL  https://komb4t.github.io/scripts/GWars-FarmBeaverFeed.user.js
 // ==/UserScript==
 
 (function () {

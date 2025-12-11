@@ -279,7 +279,7 @@ tags:
 
   <div class="script-actions">
       <a class="cta-primary" href="../scripts/Gwars-EUNMarketPrice.user.js">Установить скрипт</a>
-      <a class="cta-secondary" href="https://komb4t.github.io/scripts/Gwars-EUNMarketPrice.user.js" rel="noreferrer noopener">Открыть raw-версию</a>
+      <a class="cta-secondary" href="https://github.com/KOMB4T/komb4t.github.io/raw/refs/heads/v4/content/scripts/Gwars-EUNMarketPrice.user.js" rel="noreferrer noopener">Открыть raw-версию</a>
     </div>
   </section>
 
@@ -304,7 +304,7 @@ tags:
   <section class="script-card">
     <div class="script-actions">
       <a class="cta-primary" href="../scripts/Gwars-EUNMarketPrice.user.js">Установить скрипт</a>
-      <a class="cta-secondary" href="https://komb4t.github.io/scripts/Gwars-EUNMarketPrice.user.js" rel="noreferrer noopener">Открыть raw-версию</a>
+      <a class="cta-secondary" href="https://github.com/KOMB4T/komb4t.github.io/raw/refs/heads/v4/content/scripts/Gwars-EUNMarketPrice.user.js" rel="noreferrer noopener">Открыть raw-версию</a>
     </div>
   </section>
 </div>

@@ -5,8 +5,8 @@
 // @description  Избранные лоты на странице Доски объявлений: выбор предмета с модификатором, ручной запуск поиска объявлений.
 // @author       KOMB4T
 // @match        https://www.gwars.io/market.php*
-// @updateURL    https://raw.githubusercontent.com/komb4t.github.io/scripts/Gwars-MarketFavorites.user.js
-// @downloadURL  https://raw.githubusercontent.com/komb4t.github.io/scripts/Gwars-MarketFavorites.user.js
+// @updateURL    https://komb4t.github.io/scripts/Gwars-MarketFavorites.user.js
+// @downloadURL  https://komb4t.github.io/scripts/Gwars-MarketFavorites.user.js
 // @grant        GM_getResourceText
 // @grant        GM_addStyle
 // @run-at       document-end

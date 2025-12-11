@@ -4,8 +4,8 @@
 // @author          KOMBAT
 // @match           https://*.gwars.io/*
 // @grant           none
-// @updateURL       https://raw.githubusercontent.com/KOMB4t.github.io/scripts/Gwars-PortTimerNotif.user.js
-// @downloadURL     https://raw.githubusercontent.com/KOMB4t.github.io/scripts/Gwars-PortTimerNotif.user.js
+// @updateURL       https://komb4t.github.io/scripts/Gwars-PortTimerNotif.user.js
+// @downloadURL     https://komb4t.github.io/scripts/Gwars-PortTimerNotif.user.js
 // @version         1.1
 // ==/UserScript==
 

@@ -5,8 +5,8 @@
 // @match           https://*.gwars.io/items.php*
 // @grant           none
 // @version         0.2
-// @downloadURL     https://raw.githubusercontent.com/KOMB4t.github.io/scripts/Gwars-BrokenItemsSort.user.js
-// @updateURL       https://raw.githubusercontent.com/KOMB4t.github.io/scripts/Gwars-BrokenItemsSort.user.js
+// @downloadURL     https://komb4t.github.io/scripts/Gwars-BrokenItemsSort.user.js
+// @updateURL       https://komb4t.github.io/scripts/Gwars-BrokenItemsSort.user.js
 // ==/UserScript==
 
 (function () {

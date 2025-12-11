@@ -7,8 +7,8 @@
 // @grant        none
 // @author       KOMBAT
 // @run-at       document-end
-// @downloadURL  https://raw.githubusercontent.com/KOMB4t.github.io/scripts/GWars-OutlandDepartureLink.user.js
-// @updateURL    https://raw.githubusercontent.com/KOMB4t.github.io/scripts/GWars-OutlandDepartureLink.user.js
+// @downloadURL  https://komb4t.github.io/scripts/GWars-OutlandDepartureLink.user.js
+// @updateURL    https://komb4t.github.io/scripts/GWars-OutlandDepartureLink.user.js
 // ==/UserScript==
 
 (function () {
