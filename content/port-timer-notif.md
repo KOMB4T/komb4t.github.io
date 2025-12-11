@@ -279,7 +279,7 @@ tags:
 
   <div class="script-actions">
       <a class="cta-primary" href="../scripts/Gwars-PortTimerNotif.user.js">Установить скрипт</a>
-      <a class="cta-secondary" href="https://github.com/KOMB4T/komb4t.github.io/raw/refs/heads/v4/content/scripts/Gwars-PortTimerNotif.user.js" rel="noreferrer noopener">Открыть raw-версию</a>
+      <a class="cta-secondary" href="https://github.com/KOMB4T/komb4t.github.io/blob/refs/heads/v4/content/scripts/Gwars-PortTimerNotif.user.js?plain=1" rel="noreferrer noopener">Открыть raw-версию</a>
     </div>
   </section>
 
@@ -330,7 +330,7 @@ tags:
   <section class="script-card">
     <div class="script-actions">
       <a class="cta-primary" href="../scripts/Gwars-PortTimerNotif.user.js">Установить скрипт</a>
-      <a class="cta-secondary" href="https://github.com/KOMB4T/komb4t.github.io/raw/refs/heads/v4/content/scripts/Gwars-PortTimerNotif.user.js" rel="noreferrer noopener">Открыть raw-версию</a>
+      <a class="cta-secondary" href="https://github.com/KOMB4T/komb4t.github.io/blob/refs/heads/v4/content/scripts/Gwars-PortTimerNotif.user.js?plain=1" rel="noreferrer noopener">Открыть raw-версию</a>
     </div>
   </section>
 </div>
