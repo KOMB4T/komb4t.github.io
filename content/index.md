@@ -235,7 +235,8 @@ draft: false
       <button type="button" data-tag="Ферма"># Ферма</button>
       <button type="button" data-tag="Предметы"># Предметы</button>
       <button type="button" data-tag="Карта"># Карта</button>
-      <button type="button" data-tag="Порты"># Порты</button>      
+      <button type="button" data-tag="Порты"># Порты</button>
+      <button type="button" data-tag="Объявления"># Объявления</button>
     </div>
     <div class="script-catalog">
       <article class="script-card" data-tags="EUN">
@@ -282,6 +283,17 @@ draft: false
         <div class="actions">
           <a class="install-link" href="scripts/Gwars-BrokenItemsSort.user.js">Установить</a>
           <a class="more-link" href="/broken-items-sort">Подробнее →</a>
+        </div>
+      </article>
+      <article class="script-card" data-tags="Объявления">
+        <h2><a href="/market-favorites">[GWars] Market Favorites</a></h2>
+        <p>Избранные лоты на Доске объявлений: выбирайте предмет и модификатор, запускайте поиск предложений вручную и фильтруйте их по острову, типу покупки и ценовому порогу.</p>
+        <ul class="tag-list">
+          <li># Объявления</li>
+        </ul>
+        <div class="actions">
+          <a class="install-link" href="scripts/Gwars-MarketFavorites.user.js">Установить</a>
+          <a class="more-link" href="/market-favorites">Подробнее →</a>
         </div>
       </article>
       <article class="script-card" data-tags="Карта">
