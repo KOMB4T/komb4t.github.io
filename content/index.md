@@ -231,6 +231,7 @@ draft: false
       <button type="button" class="filter-reset" aria-label="Сбросить фильтры">Сбросить фильтр</button>
       <button type="button" data-tag="Ресурсы"># Ресурсы</button>
       <button type="button" data-tag="Сортировка"># Сортировка</button>
+      <button type="button" data-tag="Достижения"># Достижения</button>
       <button type="button" data-tag="EUN"># EUN</button>
       <button type="button" data-tag="Ферма"># Ферма</button>
       <button type="button" data-tag="Предметы"># Предметы</button>
@@ -283,6 +284,18 @@ draft: false
         <div class="actions">
           <a class="install-link" href="scripts/Gwars-BrokenItemsSort.user.js">Установить</a>
           <a class="more-link" href="/broken-items-sort">Подробнее →</a>
+        </div>
+      </article>
+      <article class="script-card" data-tags="Достижения,Сортировка">
+        <h2><a href="/achievements-sort">[GWars] Achievements Sort</a></h2>
+        <p>Упорядочивает страницу достижений: скрывает выполненные на 100% пункты, переносит полностью закрытые группы в конец колонки и отдельно обрабатывает блоки [REP] с мягким затемнением завершённых строк.</p>
+        <ul class="tag-list">
+          <li># Достижения</li>
+          <li># Сортировка</li>
+        </ul>
+        <div class="actions">
+          <a class="install-link" href="scripts/GWars-AchievementsSort.user.js">Установить</a>
+          <a class="more-link" href="/achievements-sort">Подробнее →</a>
         </div>
       </article>
       <article class="script-card" data-tags="Объявления">
