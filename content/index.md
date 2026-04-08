@@ -331,6 +331,17 @@ draft: false
           <a class="more-link" href="/port-timer-notif">Подробнее →</a>
         </div>
       </article>
+      <article class="script-card" data-tags="Бой">
+        <h2><a href="/plus-queue">[GWars] Plus Queue</a></h2>
+        <p>Панель очереди замен в наблюдении за боем: кто написал «+» в логе, ваш номер и подсказка «можно входить», когда можно жать «Войти за…».</p>
+        <ul class="tag-list">
+          <li># Бой</li>
+        </ul>
+        <div class="actions">
+          <a class="install-link" href="scripts/GWars-PlusQueue.user.js">Установить</a>
+          <a class="more-link" href="/plus-queue">Подробнее →</a>
+        </div>
+      </article>
     </div>
   </section>
 </div>
