@@ -238,6 +238,8 @@ draft: false
       <button type="button" data-tag="Карта"># Карта</button>
       <button type="button" data-tag="Порты"># Порты</button>
       <button type="button" data-tag="Объявления"># Объявления</button>
+      <button type="button" data-tag="Операции"># Операции</button>
+      <button type="button" data-tag="Интерфейс"># Интерфейс</button>
     </div>
     <div class="script-catalog">
       <article class="script-card" data-tags="EUN">
@@ -340,6 +342,18 @@ draft: false
         <div class="actions">
           <a class="install-link" href="scripts/GWars-PlusQueue.user.js">Установить</a>
           <a class="more-link" href="/plus-queue">Подробнее →</a>
+        </div>
+      </article>
+      <article class="script-card" data-tags="Операции,Интерфейс">
+        <h2><a href="/ops-ui">[GWars] Ops UI</a></h2>
+        <p>Улучшения страницы операций: сворачивание карточек с настройкой порога важности, компактные факты, цветные шансы налёта, сортировка по важности, сводка «За сегодня» и ссылки «К покупке».</p>
+        <ul class="tag-list">
+          <li># Операции</li>
+          <li># Интерфейс</li>
+        </ul>
+        <div class="actions">
+          <a class="install-link" href="scripts/GWars-OpsUI.user.js">Установить</a>
+          <a class="more-link" href="/ops-ui">Подробнее →</a>
         </div>
       </article>
     </div>
