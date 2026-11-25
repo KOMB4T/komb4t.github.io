@@ -294,6 +294,13 @@ tags:
     </ul>
   </section>
 
+  <section class="script-gallery">
+    <figure>
+      <img src="/outland-gate-pass/screenshot-1.png" alt="Занятый шлюз на карте сектора" loading="lazy" />
+      <figcaption>Занятый шлюз: на крайней клетке сектора стоит персонаж, стрелка скрыта — нажатие стрелки/WASD в его сторону выполняет переход.</figcaption>
+    </figure>
+  </section>
+
   <section class="script-card script-section">
     <h2>Как работает</h2>
     <p>Скрипт работает на страницах карты (<code>www.gwars.io/walk*</code>) и выполняет следующие действия:</p>
