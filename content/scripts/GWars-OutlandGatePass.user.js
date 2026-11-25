@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         [GWars] OutlandGatePass
 // @namespace    http://tampermonkey.net/
-// @version      1.4
+// @version      1.5
 // @description  Стрелки/WASD ведут к краю сектора (шлюзу), даже когда на клетке шлюза стоит персонаж и игра отключила стрелку и хоткей
 // @author       KOMBAT
 // @match        https://www.gwars.io/walk*
@@ -12,8 +12,10 @@
 (function() {
     'use strict';
 
+    // Логи в консоль: по умолчанию выключены, включаются присвоением DEBUG = true
+    const DEBUG = false;
     const LOG = '[OutlandGatePass] ';
-    const log = (...args) => console.log(LOG, ...args);
+    const log = (...args) => { if (DEBUG) console.log(LOG, ...args); };
 
     // Направления: коды клавиш (стрелки + WASD), смещение шага, картинка стрелки на карте
     const DIRS = [
