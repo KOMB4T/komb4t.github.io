@@ -356,6 +356,17 @@ draft: false
           <a class="more-link" href="/ops-ui">Подробнее →</a>
         </div>
       </article>
+      <article class="script-card" data-tags="Карта">
+        <h2><a href="/outland-gate-pass">[GWars] OutlandGatePass</a></h2>
+        <p>Возвращает навигацию через занятый шлюз: если на крайней клетке сектора стоит персонаж и игра скрыла стрелку, нажатие стрелки/WASD в его сторону выполняет переход в соседний сектор.</p>
+        <ul class="tag-list">
+          <li># Карта</li>
+        </ul>
+        <div class="actions">
+          <a class="install-link" href="scripts/GWars-OutlandGatePass.user.js">Установить</a>
+          <a class="more-link" href="/outland-gate-pass">Подробнее →</a>
+        </div>
+      </article>
     </div>
   </section>
 </div>
